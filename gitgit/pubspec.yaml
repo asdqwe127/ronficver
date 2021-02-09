@@ -1,0 +1,103 @@
+name: ronfic_ver2
+description: A new Flutter application.
+
+# The following line prevents the package from being accidentally published to
+# pub.dev using `pub publish`. This is preferred for private packages.
+publish_to: 'none' # Remove this line if you wish to publish to pub.dev
+
+# The following defines the version and build number for your application.
+# A version number is three numbers separated by dots, like 1.2.43
+# followed by an optional build number separated by a +.
+# Both the version and the builder number may be overridden in flutter
+# build by specifying --build-name and --build-number, respectively.
+# In Android, build-name is used as versionName while build-number used as versionCode.
+# Read more about Android versioning at https://developer.android.com/studio/publish/versioning
+# In iOS, build-name is used as CFBundleShortVersionString while build-number used as CFBundleVersion.
+# Read more about iOS versioning at
+# https://developer.apple.com/library/archive/documentation/General/Reference/InfoPlistKeyReference/Articles/CoreFoundationKeys.html
+version: 1.0.0+1
+
+environment:
+  sdk: ">=2.7.0 <3.0.0"
+
+dependencies:
+  flutter:
+    sdk: flutter
+  cupertino_icons:
+  provider: 4.0.1 #프로바이더
+  google_fonts: 1.1.1 #구글 폰트
+  dio: 3.0.10 # dio
+  http: 0.12.2
+  shared_preferences: 0.5.12+4
+  convex_bottom_bar: 2.6.0 #bottom navi
+  prefs: 3.2.1 #저장
+  firebase_auth: 0.16.1 #파이어베이스 인증
+  firebase_messaging: 6.0.13 #fcm 메세지
+  salomon_bottom_bar: 2.0.0 # 현재 쓰는 바텀 네비
+  line_icons: 0.2.0 #라인 에서 나온 icon
+  video_player: 1.0.1 # scrren first video
+  google_sign_in: 4.4.4 #google api
+  flutter_local_notifications: 1.3.0 #자체적으로 울리는 앱알람
+  flutter_native_timezone: 1.0.4 #시간 제어 위한 한국시간 찾기
+  fl_chart: 0.12.2 # admin 들어갈 그래프
+  intl: 0.16.1 # date format 때문에 일단 들고왔음 대표님 코드에서
+  timer_builder: 1.3.0
+  flutter_datetime_picker: 1.4.0
+  transparent_image: ^1.0.0
+  pull_to_refresh: ^1.6.3 # 아직안함
+  flutter_swiper: 1.1.6
+  clay_containers: 0.2.3
+  flutter_zoom_drawer: 1.0.4+1 #사용안함
+  image_picker: 0.6.7+22
+
+
+dev_dependencies:
+  flutter_test:
+    sdk: flutter
+
+# For information on the generic Dart part of this file, see the
+# following page: https://dart.dev/tools/pub/pubspec
+
+# The following section is specific to Flutter.
+flutter:
+
+  # The following line ensures that the Material Icons font is
+  # included with your application, so that you can use the icons in
+  # the material Icons class.
+  uses-material-design: true
+
+  # To add assets to your application, add an assets section, like this:
+  assets:
+    - images/
+    - video/
+
+
+
+  # An image asset can refer to one or more resolution-specific "variants", see
+  # https://flutter.dev/assets-and-images/#resolution-aware.
+
+  # For details regarding adding assets from package dependencies, see
+  # https://flutter.dev/assets-and-images/#from-packages
+
+  # To add custom fonts to your application, add a fonts section here,
+  # in this "flutter" section. Each entry in this list should have a
+  # "family" key with the font family name, and a "fonts" key with a
+  # list giving the asset and other descriptors for the font. For
+  # example:
+#  fonts:
+#    -family: NotoSans
+#    fonts:
+#      - asset: assets/fonts/NotoSansKR-Thin.otf
+#      - asset: assets/fonts/NotoSansKR-Light.otf
+#        weight: 300
+#      - asset: assets/fonts/NotoSansKR-Regular.otf
+#        weight: 400
+#      - asset: assets/fonts/NotoSansKR-Medium.otf
+#        weight: 500
+#      - asset: assets/fonts/NotoSansKR-Bold.otf
+#        weight: 700
+#      - asset: assets/fonts/NotoSansKR-Black.otf
+#        weight: 900
+
+  # For details regarding fonts from package dependencies,
+  # see https://flutter.dev/custom-fonts/#from-packages

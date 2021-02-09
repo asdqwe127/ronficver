@@ -1,0 +1,47 @@
+{
+  "project_info": {
+    "project_number": "603010733409",
+    "project_id": "ronfic-app-e154b",
+    "storage_bucket": "ronfic-app-e154b.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:603010733409:android:6a8ee1499dac9d23706120",
+        "android_client_info": {
+          "package_name": "com.example.ronfic_ver2"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "603010733409-vsem8l9qlg30d6q800lqq5p6eigkrh2p.apps.googleusercontent.com",
+          "client_type": 1,
+          "android_info": {
+            "package_name": "com.example.ronfic_ver2",
+            "certificate_hash": "db4d2cbfa634294dbfe165dbd5d3a4556f6c50b6"
+          }
+        },
+        {
+          "client_id": "603010733409-g1fcerdud0g7mo5cl86jmdm522eqn856.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyAg-xGfP-gL_Jbtm-IrqJ1I-kRvJmfNe5U"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": [
+            {
+              "client_id": "603010733409-g1fcerdud0g7mo5cl86jmdm522eqn856.apps.googleusercontent.com",
+              "client_type": 3
+            }
+          ]
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}
